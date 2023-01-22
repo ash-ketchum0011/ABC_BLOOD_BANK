@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans';
+}
+body{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.font input{
+	margin-left: 40px;
+}
+.font2 input{
+	margin-left: 20px;
+}
+h5{
+	color: #45a6df;
+	margin-left: -13px;
+	margin-bottom: -15px;
+	padding-top: 20px;
+	padding-left: 280px;
+	width: auto;
+	font-size: 24px;
+}
+.container{
+	border: 2px solid rgb(81, 81, 245);
+	position: relative;
+	margin-top: 100px;
+	width: 550px;
+	height: auto;
+	background: white;
+}
+#email_error{
+	position: absolute;
+	width: 200px;
+	margin-left: 247px;
+}
+#pass_error{
+	position: absolute;
+	margin-left: 257px;
+	width: 200px;
+}
+h1{
+	color: #ffbd38;
+	font-size: 60px;
+	text-shadow: 3px 3px rgb(255, 96, 10);
+	display: inline;
+}
+span{
+	color: red;
+	font-weight: bolder;
+}
+h2{
+	margin-left: 10px;
+	display: inline;
+	font-size: 43px;
+	color: #93a7bf;
+	text-shadow:2.5px 2.5px rgb(255, 96, 10);
+}
+.login_form{
+	padding: 20px 40px;
+}
+.login_form .font{
+	width: 500px;
+	font-weight: 650;
+	font-size: 16px;
+	color: black;
+	margin: 5px 0;
+	margin-left: 170px;
+}
+.login_form input{
+	height: 25px;
+	width: 160px;
+	padding: 0 5px;
+	font-size: 18px;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.login_form button{
+	border-radius: 5px;
+	background-color: rgb(37, 55, 150);
+	color: white;
+	margin: 27px 0 30px 280px;
+	height: 40px;
+	width: 130px;
+	font-size: 18px;
+	transition: 0.5s;
+}
+.login_form button:hover{
+	background: grey;
+}
+.login_form #email_error, .login_form #pass_error{
+	font-size: 15px;
+	font-weight: 700;
+	color: red;
+	text-align: center;
+	margin-right: 86px;
+	border-radius: 3px;
+	display: none;
+}

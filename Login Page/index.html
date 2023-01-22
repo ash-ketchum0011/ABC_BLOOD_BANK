@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>ABC</h1>
+		<h2>Blood Bank</h2>
+		<h5>Admin Login</h5>
+		<form class="login_form" action="./home.html" name="form" onsubmit="return validated()">
+			<div class="font"><label for="email">User Id</label><span>*</span> <input class="userid" id="email" autocomplete="off" type="text" name="email">
+			</div>
+			<div id="email_error">User Id is required</div>
+			<div class="font font2"><label for="password">Password</label><span>*</span> <input class="passworde" id="password" autocomplete="off" type="password"
+					name="passwor"></div>
+			<div id="pass_error">Password is required</div>
+			<button type="submit">Login</button>
+		</form>
+	</div>
+	<script src="valid.js"></script>
+</body>
+</html>
